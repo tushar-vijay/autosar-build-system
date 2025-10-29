@@ -1,0 +1,56 @@
+# Build outputs and artifacts
+/build/
+**/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.elf
+*.bin
+*.map
+*.log
+*.lst
+*.s19
+*.a2l
+*.lib
+
+# IDE/editor config files (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+.cache/
+.history/
+
+# Docs output
+/docs/html/
+/docs/latex/
+
+# Temporary/system files
+*.swp
+*.tmp
+*.bak
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Batch file logs (all locations)
+**/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+*.pyc
+__pycache__/
+env/
+venv/
+
+# Other and coverage
+*.trace
+*.gcda
+*.gcno
