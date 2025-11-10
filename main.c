@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 #include "asw/asw_dummy.h"
 #include "bsw/bsw_dummy.h"
