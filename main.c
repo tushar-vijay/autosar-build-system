@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "main.h"
-#include "asw/asw_dummy.h"
-#include "bsw/bsw_dummy.h"
-#include "mcal/mcal_dummy.h"
-#include "cdd/cdd_dummy.h"
+#include "asw_dummy.h"
+#include "bsw_dummy.h"
+#include "mcal_dummy.h"
+#include "cdd_dummy.h"
 
 int main(void) {
     asw_dummy_function();
